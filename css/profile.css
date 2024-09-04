@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    background-color: #3b0808;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile-header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+.password-change {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.password-change h2 {
+    margin-top: 0;
+}
+
+.password-change form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.password-change label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.password-change input {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-change button {
+    padding: 10px;
+    background-color: #460707;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.password-change button:hover {
+    background-color: #120303;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+ul {
+    color: #1a120b;
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}

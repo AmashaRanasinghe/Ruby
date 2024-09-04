@@ -1,0 +1,52 @@
+.management-container {
+    margin-top: 20px;
+}
+
+.promotion-list {
+    margin-bottom: 20px;
+}
+
+.promotion-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.promotion-item a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3f0505;
+}
+
+.promotion-item a:hover {
+    text-decoration: underline;
+}
+
+.add-promotion-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.add-promotion-form form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-promotion-form form input,
+.add-promotion-form form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.add-promotion-form form input[type="submit"] {
+    background-color: #420606;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.add-promotion-form form input[type="submit"]:hover {
+    background-color: #850e0e;
+}

@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-container, .specials-list {
+    width: 48%;
+}
+
+.form-container h1 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+.specials-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specials-list table th, .specials-list table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.specials-list table th {
+    background: #f4f4f4;
+}
+
+.specials-list table td img {
+    max-width: 100px;
+    height: auto;
+}
+
+.edit-btn, .delete-btn {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.edit-btn:hover {
+    background: #e9ecef;
+}
+
+.delete-btn {
+    color: #dc3545;
+}
+
+.delete-btn:hover {
+    background: #f8d7da;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

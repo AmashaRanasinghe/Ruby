@@ -1,0 +1,82 @@
+/* Reservation Section Styles */
+.res {
+    background-color: #ffffffe3;
+    padding: 40px 20px;
+    border-top: 2px solid #2503038f;
+}
+
+.res h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    opacity: 1; /* Ensure heading is visible */
+    animation: fadeInUp 1s forwards;
+    color: #2c0505;
+}
+
+.res p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2b0404;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #380808;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #2b0404;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form button.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #270303;
+    color: rgb(255, 249, 249);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button.submit-button:hover {
+    background-color: #380a0ac9;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #200101;
+    color: #ffffff00;
+    margin-top: auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.bottom-footer {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 1px;
+    border-top: 1px solid #feead7;
+    border-bottom: 1px solid #1a120b;
+    color: #ffffff;
+    font-size: 12px;
+}

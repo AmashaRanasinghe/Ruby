@@ -1,0 +1,146 @@
+/* General styling for the body and header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header#main-nav {
+    background-color: #430404;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header#main-nav nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header#main-nav nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header#main-nav nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header#main-nav nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h4 {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="datetime-local"],
+form input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4f0101;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #180202;
+}
+
+/* Reservation history styling */
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li strong {
+    display: inline-block;
+    width: 150px;
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
